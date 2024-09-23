@@ -1,3 +1,5 @@
+import recipes from "./recipes.js";
+
 function toggleMenu() {
     var navList = document.querySelector('.nav-list');
     var textOverlay = document.querySelector('.text-overlay');
@@ -17,3 +19,4 @@ function toggleMenu() {
         });
     }
 }
+

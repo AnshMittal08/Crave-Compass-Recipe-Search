@@ -532,6 +532,193 @@ const recipes = [
             instructions: "<h5>Step-1</h5>To make grilled corn and capsicum sandwich, heat the butter in a broad non-stick pan, add the onions, garlic and green chillies and sauté on a medium flame for a few seconds. <h5>Step-2</h5>Add the capsicum, sweet corn, salt and black pepper powder, mix well and cook on a medium flame for 1 to 2 minutes, while stirring occasionally. <h5>Step-3</h5>Keep aside to cool completely. <h5>Step-4</h5>Place 2 bread slices on a clean, dry surface and spread 1 tsp of butter on each bread slice. <h5>Step-5</h5>Spread 1/4th of the mixture evenly over it and sandwich it with another bread slice with the buttered side facing downwards. <h5>Step-6</h5>Brush 1 tsp of butter on top of the bread and grill in a greased pre-heated sandwich grill for 4 to 5 minutes or till the sandwich turns crispy and brown from both the sides. <h5>Step-7</h5>Cut the grilled corn and capsicum sandwich diagonally into 2 equal pieces. <h5>Step-8</h5>Repeat steps 4 to 7 to make 3 more grilled corn and capsicum sandwiches. <h5>Step-9</h5>Serve the grilled corn and capsicum sandwich immediately with tomato ketchup.",
             Area: "Indian",
             Category: ["Snack", "Street Food", "Vegetarian"]
+        },
+        {
+            name: "Focaccia Bread, Homemade Italian Soft Bread",
+            image: "https://www.tarladalal.com/members/9306/big/big_focaccia_bread,_homemade_italian_soft_bread-13340.jpg?size=696X905",
+            ingredients: [
+                "2 cups plain flour (maida)",
+                "14 tsp olive oil",
+                "2 tsp instant dry yeast",
+                "1 tsp sugar",
+                "1/2 tsp dried rosemary",
+                "2 tbsp sliced black olives",
+                "1 tsp sea salt (khada namak)"
+            ],
+            instructions: "<h5>Step-1</h5>Combine the yeast, sugar and 2 tbsp of warm water in a small bowl, mix well and cover it with a lid and keep aside for 15 minutes. <h5>Step-2</h5>Combine the plain flour, 6 tsp of olive oil, yeast-sugar mixture and salt, mix well and knead it into soft dough using enough warm water. <h5>Step-3</h5>Transfer the dough on a clean dry surface, and knead it well till smooth and form a ball. <h5>Step-4</h5>Grease a deep bowl with 2 tsp of olive oil and place the dough in it and cover it with a cling wrap. <h5>Step-5</h5>Place the dough in a warm place for 45 minutes. <h5>Step-6</h5>Remove the cling wrap and knead it again in the bowl till smooth. <h5>Step-7</h5>Grease an aluminium tin of 200 mm. X 150 mm. (10” x 6”) with 2 tsp of olive oil and place the dough over it and spread it using your fingers and creating depressions with finger tips. <h5>Step-8</h5>Pour 2 tsp of olive oil over it, sprinkle rosemary, olives and sea salt evenly over it and press it lightly. <h5>Step-9</h5>Bake in a pre-heated oven at 200°c (400°f) for 15 minutes. <h5>Step-10</h5>Brush with 2 tsp of olive oil evenly over it. <h5>Step-11</h5>Cool slightly, demould it and cut into square pieces or as required and serve.",
+            Area: "Italian",
+            Category: ["Bread", "Appetizer", "Vegetarian"]
+        },
+        {
+            name: "Chutney Sandwich, Green Chutney Sandwich Roadside Recipe",
+            image: "https://www.tarladalal.com/members/9306/big/big_chutney_sandwich,_green_chutney_sandwich_roadside_recipe-15276.jpg?size=696X905",
+            ingredients: [
+                "20 bread slices",
+                "10 tsp butter",
+                "2 tsp chaat masala for sprinkling",
+                "1/2 cup roughly chopped coriander (dhania)",
+                "2 tbsp chopped spinach (palak)",
+                "1 bread slice, torn into pieces",
+                "3/4 tbsp roughly chopped green chillies",
+                "1/2 tsp lemon juice",
+                "salt to taste"
+            ],
+            instructions: "<h5>Step-1</h5>Combine all the ingredients along with 2½ tbsp water in a mixer and blend into a smooth paste. Keep aside. <h5>Step-2</h5>To make chutney sandwich, place 2 bread slices on a clean, dry surface, spread ½ tsp of butter on each bread slice and spread it evenly. <h5>Step-3</h5>Spread ½ tsp of green chutney on each bread slice and spread it evenly. Sprinkle a little chaat masala evenly over both the buttered-chutney bread slices, finally cover with a buttered-chutney side facing downwards and press it lightly. <h5>Step-4</h5>Repeat steps 1 and 2 to make 9 more sandwiches. <h5>Step-5</h5>Cut each chutney sandwich diagonally into 2 portions and serve.",
+            Area: "Indian",
+            Category: ["Snack", "Street Food", "Vegetarian"]
+        },
+        {
+            name: "Schezwan Paneer Cold Sandwich",
+            image: "https://www.tarladalal.com/members/9306/big/big_schezwan_paneer_cold_sandwich-12561.jpg?size=696X905",
+            ingredients: [
+                "8 bread slices",
+                "1/2 cup thick curds (dahi)",
+                "1 tsp lemon juice",
+                "salt to taste",
+                "1/4 cup schezwan sauce",
+                "3/4 cup chopped paneer (cottage cheese)",
+                "1/2 cup chopped capsicum",
+                "2 tbsp tomato ketchup",
+                "salt to taste"
+            ],
+            instructions: "<h5>Step-1</h5>Combine the coloured capsicum, schezwan sauce, tomato ketchup and salt in a deep bowl and mix well. <h5>Step-2</h5>Add the paneer and mix gently. <h5>Step-3</h5>Divide the schezwan paneer stuffing into 4 equal portions and keep aside. <h5>Step-4</h5>To make schezwan paneer cold sandwich, divide the sour cream into 4 equal portions and keep aside. <h5>Step-5</h5>Place 2 bread slices on a clean, dry surface and apply a portion of the sour cream on both the bread slices. <h5>Step-6</h5>Spread a portion of the schezwan paneer stuffing evenly on a bread slice and sandwich it using another bread slice with the sour cream side facing downwards. <h5>Step-7</h5>Cut the sandwich diagonally into 2 equal pieces. <h5>Step-8</h5>Repeat steps 2 to 4 to make 3 more sandwiches. <h5>Step-9</h5>Serve the schezwan paneer cold sandwich immediately.",
+            Area: "Indo-Chinese",
+            Category: ["Snack", "Street Food", "Vegetarian"]
+        },
+        {
+            name: "Muskmelon Pineapple Juice",
+            image: "https://www.tarladalal.com/members/9306/big/big_muskmelon_and_pineapple_juice-17158.jpg?size=696X905",
+            ingredients: [
+                "2 cups chilled and roughly chopped muskmelon (kharbooja)",
+                "2 cups chilled and roughly chopped pineapple",
+                "2 tsp chopped ginger (adrak)",
+                "10 ice-cubes"
+            ],
+            instructions: "<h5>Step-1</h5>To make muskmelon pineapple juice, combine the muskmelon, pineapple and ginger in a mixer. <h5>Step-2</h5>Add 1/2 cup of chilled water and ice-cubes. <h5>Step-3</h5>Blend till smooth. <h5>Step-4</h5>Serve muskmelon pineapple juice immediately.",
+            Area: "Indian",
+            Category: ["Beverage", "Healthy", "Vegetarian"]
+        },
+        {
+            name: "Moong Dal Dhokla",
+            image: "https://www.tarladalal.com/members/9306/big/big_moong_dal_dhokla-14236.jpg?size=696X905",
+            ingredients: [
+                "3/4 cup yellow moong dal (split yellow gram)",
+                "1 tsp roughly chopped green chillies",
+                "salt to taste",
+                "1 1/2 tsp sugar",
+                "a pinch of asafoetida (hing)",
+                "1 tbsp oil",
+                "1/2 tsp turmeric powder (haldi)",
+                "1 tbsp besan (bengal gram flour)",
+                "1 1/2 tsp fruit salt",
+                "1 tbsp oil",
+                "1/2 tsp mustard seeds (rai / sarson)",
+                "1/2 tsp sesame seeds (til)",
+                "a pinch asafoetida (hing)",
+                "2 tsp finely chopped green chillies",
+                "1 tbsp finely chopped coriander (dhania)",
+                "1 tbsp grated coconut",
+                "green chutney"
+            ],
+            instructions: "<h5>Step-1</h5>To make moong dal dhokla, soak the yellow moong dal in enough water for 30 minutes. Drain well. <h5>Step-2</h5>Combine the yellow moong dal and green chillies and blend in a mixer using ½ cup of water to make a paste of pouring consistency. <h5>Step-3</h5>Transfer the paste to a bowl, add the salt, sugar, asafoetida, oil, turmeric powder, besan and curds and mix well to make a batter. <h5>Step-4</h5>Just before steaming, sprinkle fruit salt and mix lightly. <h5>Step-5</h5>Pour the batter into a greased 175 mm. (7”) diameter thali. <h5>Step-6</h5>Steam in a steamer for 10 to 12 minutes or till the dhokala is cooked. Keep aside. <h5>Step-7</h5>Heat the oil in a small non-stick pan and add the mustard seeds. <h5>Step-8</h5>When the mustard seeds crackle, add the sesame seeds, asafoetida and sauté on a medium flame for 30 seconds. <h5>Step-9</h5>Add the green chillies and sauté on a medium flame for 30 seconds. <h5>Step-10</h5>Pour the tempering over the prepared moong dal dhokla and spread it evenly. <h5>Step-11</h5>Sprinkle the coriander and coconut evenly on top. <h5>Step-12</h5>Cut the moong dal dhokla into pieces and serve hot with green chutney.",
+            Area: "Gujarati",
+            Category: ["Snack", "Street Food", "Vegetarian"]
+        },
+        {
+            name: "Anti-Aging Breakfast Platter",
+            image: "https://www.tarladalal.com/members/9306/big/big_anti-_aging_breakfast_platter-14956.jpg?size=696X905",
+            ingredients: [
+                "2 tbsp sprouted moong (whole green gram)",
+                "1/4 cup low fat paneer (cottage cheese) cubes",
+                "1/4 tsp chilli powder",
+                "1/4 tsp cumin seeds (jeera) powder",
+                "1/4 tsp rock salt (sendha namak)",
+                "6 oranges segments",
+                "1/2 cup watermelon (tarbuj) balls",
+                "1/4 cup green grapes",
+                "2 dates (khajur)",
+                "4 walnuts (akhrot)",
+                "5 almonds (badam)"
+            ],
+            instructions: "<h5>Step-1</h5>To make anti-aging breakfast platter, combine the sprouted moong, paneer, chilli powder, cumin seeds powder and rock salt in a bowl and mix well. <h5>Step-2</h5>Arrange all the ingredients on a platter and serve immediately.",
+            Area: "Indian",
+            Category: ["Breakfast", "Healthy", "Vegetarian"]
+        },
+        {
+            name: "Instant Poha Idli",
+            image: "https://www.tarladalal.com/members/9306/big/big_instant_poha_idli,_aval_idli-15670.jpg?size=696X905",
+            ingredients: [
+                "1 cup raw rice (chawal)",
+                "1/4 cup thick beaten rice (jada poha)",
+                "1/4 cup urad dal (split black lentils)",
+                "1/4 tsp fenugreek (methi) seeds",
+                "1/4 cup curd (dahi)",
+                "salt to taste",
+                "1 tsp fruit salt"
+            ],
+            instructions: "<h5>Step-1</h5>To make instant poha idli, place the rice in a deep bowl. Clean and wash the rice well. Drain, add the poha and enough water and soak for 2 hours. Drain well. <h5>Step-2</h5>Clean, wash the urad dal and fenugreek seeds thoroughly and soak with enough water in a deep bowl for at least 2 hours. Drain well. <h5>Step-3</h5>Combine the rice-poha mixture and ½ cup of water in a mixer and blend till smooth. <h5>Step-4</h5>Combine the urad dal, fenugreek seeds and ¼ cup of water in a mixer and blend till smooth. <h5>Step-5</h5>Combine the two batters and curd and salt in a deep bowl and mix very well. <h5>Step-6</h5>Just before steaming the idlis, add the fruit salt and 2 tsp of water and mix gently. <h5>Step-7</h5>Put spoonfuls of the batter into greased idli moulds and steam in a steamer for 10 to 12 minutes. <h5>Step-8</h5>Repeat with the remaining batter to make more instant poha idlis. <h5>Step-9</h5>Serve the instant poha idlis hot with sambhar and coconut chutney.",
+            Area: "Indian",
+            Category: ["Breakfast", "South Indian", "Vegetarian"]
+        },
+        {
+            name: "Vermicelli Idli",
+            image: "https://www.tarladalal.com/members/9306/big/big_vermicelli_nut_idli-16835.jpg?size=696X905",
+            ingredients: [
+                "2 cups broken vermicelli (sevaiyan)",
+                "3/4 cup semolina (rava / sooji)",
+                "1 cup curd (dahi)",
+                "4 tbsp oil",
+                "1 tsp mustard seeds (rai / sarson)",
+                "2 tsp urad dal (split black lentils)",
+                "a pinch of asafoetida (hing)",
+                "1 tbsp finely chopped green chillies",
+                "1 tbsp broken cashew nut (kaju)",
+                "3 to 4 curry leaves (kadi patta)",
+                "salt to taste",
+                "2 tsp fruit salt",
+                "sambhar",
+                "coconut chutney"
+            ],
+            instructions: "<h5>Step-1</h5>To make vermicelli idli recipe, heat 4 tbsp of oil in a broad non-stick pan, add mustard seeds, urad dal, asafoetida, cashewnuts and curry leaves. <h5>Step-2</h5>Sauté on medium flame for few seconds. Add semolina and sauté on medium flame for 2 to 3 minutes, while stirring continuously. <h5>Step-3</h5>Add vermicelli and sauté on medium flame for 2 minutes, while stirring occasionally. <h5>Step-4</h5>Switch off the flame and remove in a deep bowl and cool slightly. <h5>Step-5</h5>Add the salt and curd, mix well. <h5>Step-6</h5>Just before steaming the idlis, add the fruit salt and little water over it, when the bubbles form, mix gently. <h5>Step-7</h5>Pour a little batter into each of the greased idli moulds and steam in a steamer for 10 to 12 minutes or till the idlis are cooked. <h5>Step-8</h5>Repeat step 6 with the remaining batter to make more idlis. <h5>Step-9</h5>Allow the idlis to cool slightly and demould them. <h5>Step-10</h5>Serve vermicelli idli hot with sambhar and coconut chutney.",
+            Area: "Indian",
+            Category: ["Breakfast", "South Indian", "Vegetarian"]
+        },
+        {
+            name: "Poha Dhokla",
+            image: "https://www.tarladalal.com/members/9306/big/big_poha_dhokla-14099.jpg?size=696X905",
+            ingredients: [
+                "1/2 cup coarsely crushed thick beaten rice (jada poha)",
+                "1/2 cup semolina (rava / sooji)",
+                "1 tsp green chilli paste",
+                "salt to taste",
+                "1 tsp fruit salt",
+                "1 tbsp oil",
+                "1/2 tsp mustard seeds (rai / sarson)",
+                "a pinch of asafoetida (hing)",
+                "1 tbsp finely chopped coriander (dhania)",
+                "green chutney"
+            ],
+            instructions: "<h5>Step-1</h5>To make poha dhokla, combine the curds and 1 cup of water in a deep bowl and mix well. <h5>Step-2</h5>Add the semolina, beaten rice, green chilli paste and salt, mix well and keep aside for 10 minutes. <h5>Step-3</h5>Just before steaming, add the fruit salt and 2 tsp of water over it. <h5>Step-4</h5>When the bubbles form, mix gently. <h5>Step-5</h5>Pour the batter into a greased 175 mm. (7”) diameter thali and shake the thali clockwise to spread the batter in an even layer. <h5>Step-6</h5>Steam in a steamer for 10 to 12 minutes or till the dhoklas are cooked. Keep aside. <h5>Step-7</h5>Heat the oil in a small pan and add the mustard seeds. <h5>Step-8</h5>When the seeds crackle, add the asafoetida. Sauté on a medium flame for a few seconds and pour this tempering over the dhoklas. <h5>Step-9</h5>Cool the poha dhokla slightly, cut into diamond shaped equal sized pieces and garnish with coriander. <h5>Step-10</h5>Cool the poha dhoklas slightly, wrap in an aluminum foil and pack in a tiffin box.",
+            Area: "Gujarati",
+            Category: ["Snack", "Street Food", "Vegetarian"]
+        },
+        {
+            name: "Gujarati Plain Thepla",
+            image: "https://www.tarladalal.com/members/9306/big/big_thepla_(_gujarati_recipe)-15767.jpg?size=696X905",
+            ingredients: [
+                "2 cups whole wheat flour (gehun ka atta)",
+                "1 tbsp oil",
+                "2 tbsp curd (dahi)",
+                "1/4 tsp turmeric powder (haldi)",
+                "1 tsp chilli powder",
+                "salt to taste",
+                "whole wheat flour (gehun ka atta) for rolling",
+                "oil for kneading and cooking",
+                "chunda or sweet pickle"
+            ],
+            instructions: "<h5>Step-1</h5>For making the famous Gujarati theplas at home, you first have to combine whole wheat flour, oil, curds, turmeric powder, chili powder and salt in a bowl and knead into a semi-soft dough using enough water. The addition of curd and oil in the dough results into soft thepla. <h5>Step-2</h5>Knead the dough well using a little oil. Cover with a lid or a muslin cloth and keep it aside for 10 minutes. Ensure that you are using a wide mouthed bowl which helps in kneading the dough without creating a mess. <h5>Step-3</h5>Divide the dough into 14 equal portions and shape them into round balls. Press them gently between your palms and flatten it to roll out each portion into a 125 mm. (5\") diameter circle using whole wheat flour for rolling. <h5>Step-4</h5>Heat a non-stick tava (griddle) over medium flame. On the hot tawa, place the rolled circle and cook each circle, using a little oil, till it turns golden brown in colour from both sides on a slow flame. <h5>Step-5</h5>To increase the shelf life of the thepla, use lots of oil while cooking; so that they will remain soft. <h5>Step-6</h5>Serve the Gujarati theplas hot with chunda or sweet mango pickle.",
+            Area: "Gujarati",
+            Category: ["Main Course", "Indian Bread", "Vegetarian"]
         }
 ];
 

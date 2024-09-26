@@ -60,21 +60,21 @@ let showBtn = document.querySelector('.show-btn');
 let elementsPerRow = getElementsPerRow();
 
 // Initially show only the elements in the first row
-for (let i = elementsPerRow; i < recipeCards.length; i++) {
+for (let i = elementsPerRow*3; i < recipeCards.length; i++) {
     recipeCards[i].style.display = 'none';
 }
 
-let currentRow = 1;
+let currentRow = 3;
 
 showBtn.addEventListener('click', function () {
     let startIndex = currentRow * elementsPerRow;
-    let endIndex = Math.min(startIndex + elementsPerRow, recipeCards.length);
+    let endIndex = Math.min(startIndex + elementsPerRow*3, recipeCards.length);
 
     for (let i = startIndex; i < endIndex; i++) {
         recipeCards[i].style.display = 'block';
     }
 
-    currentRow++;
+    currentRow+=3;
 
     if (endIndex >= recipeCards.length) {
         showBtn.style.display = 'none';
@@ -100,18 +100,23 @@ function toggleCollapseButton() {
     if (showBtn.style.display === 'none') {
         collapseBtn.style.display = 'inline-block';
         collapseBtn.addEventListener('click', function () {
-            for (let i = elementsPerRow; i < recipeCards.length; i++) {
+            for (let i = elementsPerRow*3; i < recipeCards.length; i++) {
                 recipeCards[i].style.display = 'none';
             }
             showBtn.style.display = 'block';
             collapseBtn.style.display = 'none';
-            currentRow = 1; // Reset currentRow to 1
+            currentRow = 3; // Reset currentRow to 1
         });
         showBtn.parentNode.insertBefore(collapseBtn, showBtn.nextSibling);
     } else {
         collapseBtn.style.display = 'none';
     }
 }
+
+let viewAllButton = document.querySelector('.view-all-recipes');
+viewAllButton.addEventListener('click', function(){
+    viewAllRecipes();
+});
 
 function viewAllRecipes() {
     for (let i = 0; i < recipeCards.length; i++) {
@@ -120,6 +125,8 @@ function viewAllRecipes() {
     showBtn.style.display = 'none';
     toggleCollapseButton();
 }
+
+
 
 //Nav-Bar Contact Us scroll movement
 const contactUsLink = document.getElementById('ContactUs');

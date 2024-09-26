@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    background: linear-gradient(135deg, #bebaba, #ffffff);
 }
 a {
     text-decoration: none;
@@ -183,7 +184,7 @@ a {
 
 .text-overlay {
     position: absolute;
-    top: 60%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -218,7 +219,7 @@ a {
 @media screen and (max-width:1060px) and (min-width:825px) {
     .text-overlay
     {
-        top:37%;
+        top:350px;
     }
     .text-overlay h1
     {
@@ -238,7 +239,7 @@ a {
 @media screen and (max-width:825px) and (min-width:685px) {
     .text-overlay
     {
-        top:33%;
+        top:300px;
     }
     .text-overlay h1
     {
@@ -259,7 +260,7 @@ a {
 {
     .text-overlay
     {
-        top:25%;
+        top:35%;
     }
     .text-overlay h1
     {
@@ -386,12 +387,12 @@ a {
     }
 }
 
-/* Recipe Container */
 .recipe-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 15px;
-    margin: 10px;
+    margin: 20px;
+    padding: 20px;
 }
 
 /* Recipe Card */
@@ -400,16 +401,17 @@ a {
     border-radius: 12px;
     background-color: #fff;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    transition: box-shadow 0.4s ease, transform 0.4s ease;
+    transition: box-shadow 0.4s ease, transform 0.4s ease, background-color 0.4s ease;
     overflow: hidden;
     cursor: pointer;
+    position: relative;
 }
 
 .recipe-card:hover {
-    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
-    transform: translateY(-8px); 
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    transform: translateY(-10px); 
     background-color: #FFB347; 
-
+    /* Warm soft color on hover */
 }
 
 .recipe-card img {
@@ -418,6 +420,11 @@ a {
     object-fit: cover;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
+    transition: transform 0.4s ease;
+}
+
+.recipe-card:hover img {
+    transform: scale(1.05); /* Slight zoom on hover */
 }
 
 /* Recipe Card Text */
@@ -432,9 +439,11 @@ a {
 
 .recipe-card p {
     font-size: 1rem;
-    color: #777;
+    color: #666;
     margin: 5px 10px 15px;
     text-align: left;
+    line-height: 1.6;
+    transition: color 0.3s ease;
 }
 
 /* Recipe Heading with Hover Effect */
@@ -449,16 +458,22 @@ a {
     transition: background-color 0.4s ease, transform 0.3s ease, font-size 0.3s ease, color 0.3s ease;
 }
 
-
 .recipe-card:hover .recipe-heading {
     background-color: #FFB347; 
     color: white;
     font-size: 1.3rem; 
-    /* transition: background-color 0.5s ease; */
-    border-top: 4px solid #fff;
+    border-top: 4px solid white;
+    transform: scale(1.05); /* Slight scale on hover */
 }
 
-@media screen and (max-width: 768px) and (min-width:425px) {
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) and (min-width: 425px) {
     .recipe-container {
         grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     }
@@ -516,7 +531,3 @@ a {
         padding: 0 10px;
     }
 }
-
-
-
-

@@ -149,3 +149,4 @@ recipesLink.addEventListener('click',function(event){
 function viewCategory(category) {
 window.location.href = `view-all-categories.html?category=${category}`;
 }
+

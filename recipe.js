@@ -51,3 +51,10 @@ navigator.share({
 alert('Web Share API not supported. Please share manually.');
 }
 }
+
+const shareButton = document.getElementById("shareButton");
+
+shareButton.addEventListener("click",()=>
+{
+    shareRecipe();
+});

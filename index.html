@@ -46,15 +46,12 @@
                 <li><a href="#" id="ContactUs">Contact Us</a></li>
                 <li><a href="https://forms.gle/xNf6LC4owd9Y21Nt8"
                         target="_blank">Feedback</a></li>
-                <!-- <li class="search-bar"><input type="text" id="searchInput"
-                        placeholder="Search 🔎"><button id="searchButton">Search</button></li> -->
-                        <li><a href="view-all-categories.html">Search Recipe</a></li>
-
+                <li id="search-button"><a href="#">Search Recipe</li>
             </ul>
             <div>
                 <a href="Login Page/SignUp.html"><button
                         class="btn-login">Login/SignUp</button></a>
-                <a class="menu-icon" onclick="toggleMenu()"><i
+                <a class="menu-icon"><i
                         class='bx bx-menu'></i></a>
             </div>
         </div>
@@ -116,7 +113,7 @@
                                 <path class="particle plus"/>
                             </g>
                         </svg>
-                        <input type=search name=q aria-label="Search for inspiration"/>
+                        <input type=search id="searchInput" name=q aria-label="Search for inspiration"/>
                     </div>
                     <div id="results">   
                     </div>
@@ -129,8 +126,7 @@
                 <h3 style="padding: 5px;">Craving Cure</h3>
             </div>
             <div class="view-categories">
-                <h2><button class="view-all-recipes"><a>View all
-                            recipes</a></button></h3>
+                <h2><button class="view-all-recipes"><a>View all recipes</a></button></h3>
             </div>
         </div>
         <div class="recipe-container">

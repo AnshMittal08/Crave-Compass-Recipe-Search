@@ -5,20 +5,36 @@ function toggleMenu() {
     var textOverlay = document.querySelector('.text-overlay');
     var h1 = textOverlay.querySelector('h1');
     var h3 = textOverlay.querySelectorAll('h3');
+    var searchBar = document.getElementById('search'); 
 
     navList.classList.toggle('show');
+    
     if (navList.classList.contains('show')) {
-        h1.style.display = 'none';
+        h1.style.opacity = 0;
+        h1.style.position = 'absolute';
+        searchBar.style.opacity = 0;
+        searchBar.style.position = 'absolute'; 
         h3.forEach(function (item) {
-            item.style.display = 'none';
+            item.style.opacity = 0;
+            item.style.position = 'absolute';
         });
     } else {
-        h1.style.display = 'block';
+        h1.style.opacity = 1;
+        h1.style.position = 'relative';
         h3.forEach(function (item) {
-            item.style.display = 'block';
+            item.style.opacity = 1;
+            item.style.position = 'relative';
         });
+        searchBar.style.opacity = 1;
+        searchBar.style.position = 'relative'; 
     }
 }
+
+
+const hamburgerButton = document.querySelector('.menu-icon');
+hamburgerButton.addEventListener('click', () => {
+    toggleMenu();
+});
 
 const recipeContainer = document.querySelector('.recipe-container');
 recipes.forEach(recipe => {
@@ -149,4 +165,50 @@ recipesLink.addEventListener('click',function(event){
 function viewCategory(category) {
 window.location.href = `view-all-categories.html?category=${category}`;
 }
+
+// Search functionality for the SVG-based search input
+const searchInput = document.getElementById('searchInput');
+
+// Add an event listener to the search input
+searchInput.addEventListener('input', function (event) {
+    const query = event.target.value.toLowerCase(); // Get the search query
+    filterRecipes(query); // Filter the recipes based on the query
+});
+
+function filterRecipes(query) {
+    recipeCards.forEach(recipeCard => {
+        const recipeName = recipeCard.querySelector('h4').textContent.toLowerCase(); // Get the recipe name from the card
+        const matchingRecipe = recipes.find(recipe => recipe.name.toLowerCase() === recipeName); // Find the matching recipe
+        
+        // Check if the recipe name or ingredients match the query
+        if (recipeName.includes(query) || matchingRecipe.ingredients.some(ingredient => ingredient.toLowerCase().includes(query))) {
+            recipeCard.style.display = 'block'; // Show the recipe card if it matches
+        } else {
+            recipeCard.style.display = 'none'; // Hide the recipe card if it doesn't match
+        }
+    });
+
+    // Optionally, reset the Show More and Collapse buttons if needed
+    resetShowMoreCollapseButtons();
+}
+
+function resetShowMoreCollapseButtons() {
+    showBtn.style.display = 'none'; // Hide the Show More button
+    collapseBtn.style.display = 'none'; // Hide the Collapse button
+}
+
+document.getElementById('search-button').addEventListener('click', function(event) {
+    event.preventDefault();
+    var navList = document.querySelector('.nav-list');
+    if (navList.classList.contains('show')) {
+        toggleMenu();
+        var searchBar = document.getElementById('searchInput');
+        searchBar.scrollIntoView({ behavior: 'smooth' });
+    }
+    else
+    {
+        var searchBar = document.getElementById('searchInput');
+        searchBar.scrollIntoView({ behavior: 'smooth' });
+    }
+});
 
